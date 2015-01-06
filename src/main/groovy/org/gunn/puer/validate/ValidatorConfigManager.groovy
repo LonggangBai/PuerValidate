@@ -21,7 +21,7 @@ class ValidatorConfigManager implements Validator{
 	def init(){
 		logger.info("init the validator config manager with validator.properties")
 		InputStream inputsteam = null
-        if(resource != null){
+                if(resource != null){
 		   inputsteam=resource.getInputStream();
 		}else{
 		   inputsteam=ValidatorConfigManager.class.getClass().getResourceAsStream("/validator.groovy")
