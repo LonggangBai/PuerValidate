@@ -24,7 +24,7 @@ class ValidatorConfigManager implements Validator{
                 if(resource != null){
 		   inputsteam=resource.getInputStream();
 		}else{
-		   inputsteam=ValidatorConfigManager.class.getClass().getResourceAsStream("/validator.groovy")
+		   inputsteam=ValidatorConfigManager.class.getClass().getClassLoader().getResourceAsStream("/validator.groovy")
 		}		
 		//logger.info(ValidatorConfigManager.getClass().getResource("validator.groovy").getPath())
 		//String configContext
