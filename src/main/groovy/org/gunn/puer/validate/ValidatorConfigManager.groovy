@@ -1,5 +1,4 @@
 package org.gunn.puer.validate
-package org.gunn.puer.validate
 
 import java.io.File;
 import java.io.InputStream;
